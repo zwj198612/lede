@@ -145,7 +145,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-autoreboot is not set
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
           # CONFIG_PACKAGE_luci-app-upnp is not set
-          # CONFIG_PACKAGE_luci-app-unblockmusic is not set
+          CONFIG_PACKAGE_luci-app-unblockmusic=y
           # CONFIG_PACKAGE_luci-app-unblockneteasemusic-go is not set
           # CONFIG_PACKAGE_luci-app-unblockneteasemusic-mini is not set
           # CONFIG_PACKAGE_luci-app-sqm is not set
@@ -180,9 +180,9 @@ jobs:
           EOF
 
           # LuCI主题:
-          cat >> .config <<EOF
-          CONFIG_PACKAGE_luci-theme-argon=y
-          CONFIG_PACKAGE_luci-theme-netgear=y
+          # cat >> .config <<EOF
+          # CONFIG_PACKAGE_luci-theme-argon=y
+          # CONFIG_PACKAGE_luci-theme-netgear=y
           # EOF
 
           # 常用软件包:
