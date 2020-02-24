@@ -139,7 +139,7 @@ jobs:
           # EOF
 
           # 常用LuCI插件选择:
-          cat >> .config <<EOF
+          # cat >> .config <<EOF
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
           # CONFIG_PACKAGE_luci-app-arpbind is not set
           # CONFIG_PACKAGE_luci-app-autoreboot is not set
